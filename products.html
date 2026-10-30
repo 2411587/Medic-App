@@ -1,10 +1,10 @@
+```html
 <!DOCTYPE html>
 <html>
 <head>
     <title>Medic App - Products</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <!-- Name: Tareq Hasan | ID: 2411587 -->
 
@@ -18,9 +18,39 @@
         </nav>
     </header>
 
-    <h1>Our Products</h1>
-    <p>Explore our healthcare products.</p>
+    <h1>Our Healthcare Products</h1>
+
+    <p>Welcome to the Medic App product page. Here you can explore everyday healthcare products.</p>
+
+    <p>Choose from our selection of healthcare essentials.</p>
+
+    <section class="products">
+
+        <div class="product-card">
+            <img src="images/medicine.jpg" alt="Paracetamol medicine">
+            <h2>Paracetamol</h2>
+            <p>Used for temporary relief of pain and fever. Follow the product label and professional advice.</p>
+            <p>Price: ৳50</p>
+            <button onclick="addToCart('Paracetamol')">Add to Cart</button>
+            <button onclick="buyNow('Paracetamol')">Buy Now</button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/healthcare.jpg" alt="Vitamin C healthcare product">
+            <h2>Vitamin C</h2>
+            <p>A vitamin supplement for people who need additional vitamin C in their diet.</p>
+            <p>Price: ৳200</p>
+            <button onclick="addToCart('Vitamin C')">Add to Cart</button>
+            <button onclick="buyNow('Vitamin C')">Buy Now</button>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Medic App | Your Health Matters</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
+```
